@@ -11,6 +11,19 @@
   aspect-ratio: 0.47;
 }
 
+
+p, span, .text-wrapper-3, .text-wrapper-4, .div-15 {
+  line-height: 1 !important;
+  letter-spacing: 0.01em; /* Легкая разрядка в стиле Material */
+} 
+
+
+/* h1, h2, .text-wrapper, .element {
+  font-size: 2rem !important; 
+  line-height: 1.3 !important;
+  font-weight: 500;
+} */
+
 .frame .rectangle {
   position: absolute;
   top: 0;
@@ -20,6 +33,21 @@
   aspect-ratio: 0.4;
 }
 
+.div-8,
+.shape-3{
+  height: 850px !important; 
+  width: 722px !important;
+  bottom: 6rem;
+}
+
+/* .frame-wrapper-3{
+  visibility: hidden;
+} */
+.shape-2,
+.div-5{
+  visibility:visible;
+  right: 1rem;
+}
 .frame .frame-wrapper {
   display: flex;
   height: 200px;
@@ -48,27 +76,119 @@
   flex-grow: 1;
 }
 
+.img-6{
+  overflow: visible;
+  width: 35rem !important;
+  height: 35rem !important;
+}
+
 .frame .text-wrapper {
   width: fit-content;
+  margin-top: -1px;
   font-family: "Roboto Serif-Light", Helvetica;
   font-weight: 300;
+  font-size: 57px;
   letter-spacing: -0.25px;
   line-height: 64px;
   white-space: nowrap;
   position: relative;
-  margin-top: -1px;
   color: var(--material-theme-schemes-on-tertiary);
-  font-size: 57px;
 }
 
-.frame .img {
+.frame .div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  padding: 16px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.frame .div {
+.frame .img {
+  position: relative;
+  width: 1176px;
+}
+
+.frame .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.frame .frame-wrapper-2 {
+  display: flex;
+  height: 400px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.frame .element-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 303px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--material-theme-schemes-secondary);
+  border-radius: var(--shape-corner-extra-large);
+  overflow: hidden;
+  box-shadow: 0px 2px 5px #000000;
+}
+
+.frame .element {
+  align-self: stretch;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: relative;
+  color: var(--material-theme-schemes-on-secondary);
+}
+
+.frame .div-3 {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.frame .shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 680px;
+  height: 637px;
+  aspect-ratio: 1.07;
+}
+
+.frame .vector {
+  position: absolute;
+  top: 73px;
+  left: 39px;
+  width: 602px;
+  height: 442px;
+  aspect-ratio: 1.36;
+}
+
+.frame .div-4 {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -88,7 +208,7 @@
   flex: 0 0 auto;
 }
 
-.frame .frame-wrapper-2 {
+.frame .frame-wrapper-3 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -103,7 +223,7 @@
   aspect-ratio: 0.88;
 }
 
-.frame .div-2 {
+.frame .div-5 {
   position: relative;
   align-self: stretch;
   width: 570px;
@@ -111,7 +231,7 @@
   overflow: hidden;
 }
 
-.frame .shape {
+.frame .shape-2 {
   position: absolute;
   width: 93.07%;
   height: 94.02%;
@@ -132,7 +252,7 @@
 .frame .div-wrapper-2 {
   display: flex;
   width: 1260px;
-  height: 530px;
+  height: 630px;
   align-items: flex-start;
   gap: 10px;
   padding: 16px;
@@ -146,13 +266,13 @@
 .frame .p {
   flex: 1;
   align-self: stretch;
+  margin-top: -1px;
   font-family: "Roboto Serif-Regular", Helvetica;
   font-weight: 400;
+  font-size: 57px;
   line-height: 57px;
   position: relative;
-  margin-top: -1px;
   color: var(--material-theme-schemes-on-primary);
-  font-size: 57px;
 }
 
 .frame .span {
@@ -167,7 +287,7 @@
   line-height: 52px;
 }
 
-.frame .div-3 {
+.frame .div-6 {
   position: relative;
   width: 682px;
   height: 604px;
@@ -175,7 +295,7 @@
   border-radius: var(--shape-corner-extra-large);
 }
 
-.frame .div-4 {
+.frame .div-7 {
   align-items: center;
   gap: 24px;
   padding: 16px 32px;
@@ -186,7 +306,7 @@
   position: relative;
 }
 
-.frame .element-wrapper {
+.frame .element-wrapper-2 {
   width: 1110px;
   align-items: center;
   justify-content: space-around;
@@ -200,19 +320,19 @@
   position: relative;
 }
 
-.frame .element {
+.frame .element-2 {
   width: 1068px;
   height: 818px;
+  margin-top: -1px;
   font-family: "Roboto Serif-Regular", Helvetica;
   font-weight: 400;
+  font-size: 57px;
   line-height: 57px;
   position: relative;
-  margin-top: -1px;
   color: var(--material-theme-schemes-on-secondary);
-  font-size: 57px;
 }
 
-.frame .div-5 {
+.frame .div-8 {
   flex: 1;
   flex-grow: 1;
   position: relative;
@@ -221,7 +341,7 @@
   overflow: hidden;
 }
 
-.frame .shape-2 {
+.frame .shape-3 {
   position: absolute;
   top: 94px;
   left: 30px;
@@ -240,7 +360,7 @@
   object-fit: cover;
 }
 
-.frame .div-6 {
+.frame .div-9 {
   align-items: flex-start;
   gap: 24px;
   padding: 16px 32px;
@@ -252,13 +372,32 @@
   overflow: hidden;
 }
 
-.frame .img-4 {
-  position: relative;
+.frame .div-10 {
+  display: flex;
+  flex-direction: column;
   width: 391px;
   height: 850px;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  border-radius: var(--shape-corner-large);
 }
 
-.frame .div-7 {
+.frame .img-4 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 366px;
+}
+
+.frame .img-5 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 342px;
+}
+
+.frame .div-11 {
   display: flex;
   flex-direction: column;
   width: 668px;
@@ -268,7 +407,7 @@
   position: relative;
 }
 
-.frame .element-wrapper-2 {
+.frame .element-wrapper-3 {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
@@ -284,17 +423,17 @@
   position: relative;
 }
 
-.frame .element-2 {
+.frame .element-3 {
   width: 636px;
   height: 455px;
+  margin-top: -1px;
   font-family: "Roboto Serif-Regular", Helvetica;
   font-weight: 400;
+  font-size: 57px;
   letter-spacing: 0;
   line-height: 52px;
   position: relative;
-  margin-top: -1px;
   color: var(--material-theme-schemes-on-primary);
-  font-size: 57px;
 }
 
 .frame .text-wrapper-3 {
@@ -308,10 +447,10 @@
 
 .frame .text-wrapper-4 {
   font-family: "Roboto Flex-Regular", Helvetica;
-  font-size: 16px;
+  font-size: 0.9rem;
 }
 
-.frame .frame-wrapper-3 {
+.frame .frame-wrapper-4 {
   flex-direction: column;
   width: 636px;
   height: 510px;
@@ -327,7 +466,7 @@
   overflow: hidden;
 }
 
-.frame .div-8 {
+.frame .div-12 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -343,7 +482,7 @@
   overflow: hidden;
 }
 
-.frame .shape-3 {
+.frame .shape-4 {
   position: absolute;
   top: 117px;
   left: 41px;
@@ -352,7 +491,7 @@
   aspect-ratio: 1.1;
 }
 
-.frame .img-5 {
+.frame .img-6 {
   position: relative;
   width: 531.85px;
   height: 706px;
@@ -360,7 +499,7 @@
   object-fit: cover;
 }
 
-.frame .div-9 {
+.frame .div-13 {
   display: flex;
   flex-direction: column;
   width: 818px;
@@ -370,10 +509,24 @@
   margin-right: -32px;
 }
 
-.frame .img-6 {
-  position: relative;
+.frame .div-14 {
+  display: flex;
   width: 740px;
   height: 416px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.frame .img-7 {
+  position: relative;
+  width: 335px;
+  height: 401px;
+}
+
+.frame .img-8 {
+  position: relative;
+  width: 364px;
 }
 
 .frame .div-wrapper-3 {
@@ -389,17 +542,17 @@
   position: relative;
 }
 
-.frame .div-10 {
+.frame .div-15 {
   flex: 1;
   align-self: stretch;
+  margin-top: -1px;
   font-family: "Roboto Serif-Regular", Helvetica;
   font-weight: 400;
+  font-size: 57px;
   letter-spacing: 0;
   line-height: 52px;
   position: relative;
-  margin-top: -1px;
   color: var(--material-theme-schemes-on-primary);
-  font-size: 57px;
 }
 /* Original CSS code should be injected above */
 
@@ -409,7 +562,9 @@ body {
 
 .frame {
   width: 100%;
+  max-width: 1920px;
   min-height: 4093px;
+  margin: 0 auto;
 }
 
 .frame .rectangle {
@@ -417,38 +572,96 @@ body {
   pointer-events: none;
 }
 
-.frame .text-wrapper {
+.frame .text-wrapper,
+.frame .element,
+.frame .p,
+.frame .element-2,
+.frame .element-3,
+.frame .div-15 {
   margin: 0;
 }
 
 .frame .img,
-.frame .img-2,
-.frame .img-3,
+.frame .img-4,
 .frame .img-5,
-.frame .img-6 {
+.frame .img-8 {
+  display: block;
+  height: auto;
+}
+
+.frame .img-7 {
   display: block;
 }
 
-.frame .p,
-.frame .element,
-.frame .element-2,
-.frame .div-10 {
+.frame .img-2,
+.frame .img-3,
+.frame .img-6 {
+  display: block;
+  max-width: none;
+}
+
+.frame .div-5,
+.frame .div-8,
+.frame .div-12 {
   margin: 0;
 }
 
-.frame .shape,
-.frame .shape-2,
-.frame .shape-3 {
-  display: block;
-  pointer-events: none;
+.frame .div-wrapper-2,
+.frame .element-wrapper-2,
+.frame .div-11,
+.frame .div-13,
+.frame .div-wrapper-3 {
+  max-width: 100%;
 }
 
-.frame .div-3:empty {
-  flex-shrink: 0;
+.frame .div-4,
+.frame .div-7,
+.frame .div-9,
+.frame .div {
+  flex-wrap: nowrap;
 }
 
 @media (max-width: 1919px) {
   .frame {
     overflow-x: auto;
+  }
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+  .frame {
+    height: auto !important; /* Убираем 4093px */
+    width: 100vw !important;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    overflow-x: hidden;
+  }
+
+  /* Сбрасываем абсолютные координаты у всех блоков */
+  .div, .div-13, .div-14, .frame-wrapper, .div-wrapper-2, .div-wrapper-3 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 24px;
+    padding: 20px !important;
+    box-sizing: border-box;
+  }
+
+  /* Картинки подстраиваются под ширину экрана */
+  .img, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8 {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    border-radius: 16px;
+  }
+
+  /* Прячем декоративный мусор, который рвет экран */
+  .rectangle, .shape, .shape-3, .shape-4 {
+    display: none !important;
   }
 }
