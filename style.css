@@ -1,0 +1,454 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  height: 4093px;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0px 0px 16px;
+  position: relative;
+  background-color: var(--material-theme-schemes-surface);
+  overflow: hidden;
+  aspect-ratio: 0.47;
+}
+
+.frame .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 4850px;
+  aspect-ratio: 0.4;
+}
+
+.frame .frame-wrapper {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--material-theme-schemes-tertiary);
+  border-radius: 0px 0px var(--shape-corner-large-increased)
+    var(--shape-corner-large-increased);
+  overflow: hidden;
+  box-shadow: 0px 2px 15px #000000;
+}
+
+.frame .div-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 32px 0px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.frame .text-wrapper {
+  width: fit-content;
+  font-family: "Roboto Serif-Light", Helvetica;
+  font-weight: 300;
+  letter-spacing: -0.25px;
+  line-height: 64px;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1px;
+  color: var(--material-theme-schemes-on-tertiary);
+  font-size: 57px;
+}
+
+.frame .img {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.frame .shape-set {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .frame-wrapper-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0px 4px 25.4px #000000;
+  aspect-ratio: 0.88;
+}
+
+.frame .div-2 {
+  position: relative;
+  align-self: stretch;
+  width: 570px;
+  border-radius: var(--shape-corner-large);
+  overflow: hidden;
+}
+
+.frame .shape {
+  position: absolute;
+  width: 93.07%;
+  height: 94.02%;
+  top: 5.98%;
+  left: 6.93%;
+}
+
+.frame .img-2 {
+  position: absolute;
+  width: 100%;
+  top: -94px;
+  left: 0;
+  height: 790px;
+  aspect-ratio: 0.72;
+  object-fit: cover;
+}
+
+.frame .div-wrapper-2 {
+  display: flex;
+  width: 1260px;
+  height: 530px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px;
+  position: relative;
+  background-color: var(--material-theme-schemes-primary);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px #000000;
+}
+
+.frame .p {
+  flex: 1;
+  align-self: stretch;
+  font-family: "Roboto Serif-Regular", Helvetica;
+  font-weight: 400;
+  line-height: 57px;
+  position: relative;
+  margin-top: -1px;
+  color: var(--material-theme-schemes-on-primary);
+  font-size: 57px;
+}
+
+.frame .span {
+  letter-spacing: -0.14px;
+  line-height: 64px;
+}
+
+.frame .text-wrapper-2 {
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+
+.frame .div-3 {
+  position: relative;
+  width: 682px;
+  height: 604px;
+  margin-right: -32px;
+  border-radius: var(--shape-corner-extra-large);
+}
+
+.frame .div-4 {
+  align-items: center;
+  gap: 24px;
+  padding: 16px 32px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.frame .element-wrapper {
+  width: 1110px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 16px;
+  background-color: var(--material-theme-schemes-secondary);
+  border-radius: var(--shape-corner-large-increased);
+  overflow: hidden;
+  box-shadow: 0px 1px 5px #000000;
+  display: flex;
+  position: relative;
+}
+
+.frame .element {
+  width: 1068px;
+  height: 818px;
+  font-family: "Roboto Serif-Regular", Helvetica;
+  font-weight: 400;
+  line-height: 57px;
+  position: relative;
+  margin-top: -1px;
+  color: var(--material-theme-schemes-on-secondary);
+  font-size: 57px;
+}
+
+.frame .div-5 {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  align-self: stretch;
+  border-radius: var(--shape-corner-large);
+  overflow: hidden;
+}
+
+.frame .shape-2 {
+  position: absolute;
+  top: 94px;
+  left: 30px;
+  width: 662px;
+  height: 662px;
+  aspect-ratio: 1;
+}
+
+.frame .img-3 {
+  position: absolute;
+  top: 94px;
+  left: -17px;
+  width: 709px;
+  height: 1007px;
+  aspect-ratio: 0.7;
+  object-fit: cover;
+}
+
+.frame .div-6 {
+  align-items: flex-start;
+  gap: 24px;
+  padding: 16px 32px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame .img-4 {
+  position: relative;
+  width: 391px;
+  height: 850px;
+}
+
+.frame .div-7 {
+  display: flex;
+  flex-direction: column;
+  width: 668px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+}
+
+.frame .element-wrapper-2 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--material-theme-schemes-primary);
+  border-radius: var(--shape-corner-large-increased);
+  overflow: hidden;
+  box-shadow: 0px 2px 5px #000000;
+  display: flex;
+  position: relative;
+}
+
+.frame .element-2 {
+  width: 636px;
+  height: 455px;
+  font-family: "Roboto Serif-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 52px;
+  position: relative;
+  margin-top: -1px;
+  color: var(--material-theme-schemes-on-primary);
+  font-size: 57px;
+}
+
+.frame .text-wrapper-3 {
+  font-family: "Roboto Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 57px;
+  letter-spacing: 0;
+  line-height: 52px;
+}
+
+.frame .text-wrapper-4 {
+  font-family: "Roboto Flex-Regular", Helvetica;
+  font-size: 16px;
+}
+
+.frame .frame-wrapper-3 {
+  flex-direction: column;
+  width: 636px;
+  height: 510px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 16px;
+  background-color: var(--material-theme-schemes-primary-container);
+  border-radius: var(--shape-corner-large-increased);
+  box-shadow: 0px 2px 5px #000000;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame .div-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -122px;
+  margin-bottom: -24px;
+  position: relative;
+  align-self: stretch;
+  border-radius: var(--shape-corner-large);
+  overflow: hidden;
+}
+
+.frame .shape-3 {
+  position: absolute;
+  top: 117px;
+  left: 41px;
+  width: 521px;
+  height: 472px;
+  aspect-ratio: 1.1;
+}
+
+.frame .img-5 {
+  position: relative;
+  width: 531.85px;
+  height: 706px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.frame .div-9 {
+  display: flex;
+  flex-direction: column;
+  width: 818px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  margin-right: -32px;
+}
+
+.frame .img-6 {
+  position: relative;
+  width: 740px;
+  height: 416px;
+}
+
+.frame .div-wrapper-3 {
+  width: 740px;
+  height: 539px;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--material-theme-schemes-primary);
+  border-radius: var(--shape-corner-large-increased);
+  overflow: hidden;
+  box-shadow: 0px 2px 5px #000000;
+  display: flex;
+  position: relative;
+}
+
+.frame .div-10 {
+  flex: 1;
+  align-self: stretch;
+  font-family: "Roboto Serif-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 52px;
+  position: relative;
+  margin-top: -1px;
+  color: var(--material-theme-schemes-on-primary);
+  font-size: 57px;
+}
+/* Original CSS code should be injected above */
+
+body {
+  background-color: var(--material-theme-schemes-surface);
+}
+
+.frame {
+  width: 100%;
+  min-height: 4093px;
+}
+
+.frame .rectangle {
+  max-width: none;
+  pointer-events: none;
+}
+
+.frame .text-wrapper {
+  margin: 0;
+}
+
+.frame .img,
+.frame .img-2,
+.frame .img-3,
+.frame .img-5,
+.frame .img-6 {
+  display: block;
+}
+
+.frame .p,
+.frame .element,
+.frame .element-2,
+.frame .div-10 {
+  margin: 0;
+}
+
+.frame .shape,
+.frame .shape-2,
+.frame .shape-3 {
+  display: block;
+  pointer-events: none;
+}
+
+.frame .div-3:empty {
+  flex-shrink: 0;
+}
+
+@media (max-width: 1919px) {
+  .frame {
+    overflow-x: auto;
+  }
+}
